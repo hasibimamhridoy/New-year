@@ -15,18 +15,15 @@
     background-image: url('images/header-banner/header-banner.png');
     background-size: cover;
 }
-
 .banner-container {
     margin: 100px 225px 0px 0px;
 }
-
 .banner-title {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
     margin-bottom: 24px;
 }
-
 .banner-description {
     width: 417px;
     margin-bottom: 32px;
@@ -35,7 +32,6 @@
     line-height: 26px;
     color: #444343;
 }
-
 .banner-btn {
     padding: 11px 25px;
     border: none;
@@ -52,38 +48,30 @@
     width: 100%;
     height: 100vh;
 }
-
 .failures-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 200px;
-
-
 }
-
 .failures-person {
     margin-right: 80px;
 }
-
 .failures-person img {
     height: 600px;
 
 }
-
 .failures-title-desc {
     height: 400px;
     width: 416px;
     margin-top: 50px;
 }
-
 .failures-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 24px;
 }
-
 .failures-description {
     width: 416px;
     font-weight: 400;
@@ -93,7 +81,6 @@
     ;
     margin-bottom: 16px;
 }
-
 .f-item {
     display: flex;
     font-weight: 400;
@@ -101,14 +88,11 @@
     color: #444343;
     padding: 5px 0px;
 }
-
 .f-item p {
     margin-left: 10px;
 }
 
 /*Pre- Header Persion section Code has been END*/
-
-
 
 /*Main section Code has been Start*/
 .daily-routine-container {
@@ -118,7 +102,6 @@
     text-align: center;
 
 }
-
 .daily-routine {
     display: flex;
     justify-content: center;
@@ -127,15 +110,11 @@
     padding: 15px 170px;
     margin-top: 60px;
 }
-
-
 .routine-title {
     text-align: center;
     padding: 70px 70px 100px 70px;
     font-size: 40px;
 }
-
-
 .routine-item {
     background-color: antiquewhite;
     margin: 10px 30px;
@@ -145,7 +124,6 @@
     border-radius: 50px;
     box-shadow: 5px 5px 5px silver;
 }
-
 .routine-item p,
 h2 {
     margin: 20px;
@@ -163,6 +141,10 @@ h2 {
 
 /*Main section Code has been Start*/
 /*My Plan Code has been Start*/
+
+.my-plan-section{
+    margin-top: -100px;
+}
 .my-plan {
     display: flex;
     justify-content: space-around;
@@ -171,18 +153,122 @@ h2 {
     padding: 20px 30px;
     margin: 80px 120px;
 }
-
 .container-title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
 }
-
-.p-item-title{
+.p-item-title {
     margin: 20px 0px;
 }
-
-.p-item-description{
+.p-item-description {
     color: #737272;
 }
+/*My Plan Code has been End*/
+/*Contact Now Code has been Start*/
+.contact-section {
+    height: 35vh;
+    margin: 130px 210px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(199, 24, 24, 0.183), rgba(227, 16, 192, 0.219)), url("images/call-now/call-now-watch.png"), url("images/call-now/gradient/call-now-gradient.png");
+    background-size: cover;
+    background-blend-mode: overlay;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.contact {
+    margin-left: 70px;
+}
+.contact h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+/*Contact now and main section has benn end*/
+
+/*Footer*/
+.footer-container {
+    width: 100%;
+    height: 50vh;
+    background-color: #151414;
+    color: whitesmoke;
+    margin: auto 0px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-information-footer {
+    margin-right: 230px;
+    padding-top: 110px;
+}
+.subscribe-footer {
+    margin-left: 230px;
+}
+.footer-desc {
+    width: 500px;
+    margin: 20px 0px;
+    color: gray;
+    font-size: 15px;
+}
+.footer-email-phone {
+    margin: 20px 0px;
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-fb-img {
+    cursor: pointer;
+}
+.social-img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer-title-subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.subcribe-email {
+    width: 250px;
+    padding: 15px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 4px;
+    outline-color: #ff7f50;
+}
+.subcribe-submit {
+    margin-top: 10px;
+    padding: 14px 40px;
+    border-radius: 4px;
+    background-color: white;
+    color: #ff7f50;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*Fotter end*/
+
+/*All Hover Effert add*/
+
+.banner-btn:hover{
+    background-color: #ff7f50dc;
+}
+.routine-item:hover{
+    background-color: #ff7f5050;
+}
+.subcribe-submit:hover{
+    background-color: #ffffffef;
+}
+
+.footer-email-phone:hover{
+    text-decoration: underline;
+}
+
+/*All Hover Effert add*/
