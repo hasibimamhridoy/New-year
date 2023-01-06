@@ -40,7 +40,7 @@
     padding: 11px 25px;
     border: none;
     border-radius: 3px;
-    background-color: coral;
+    background-color: #ff7f50;
     color: azure;
     cursor: pointer;
 }
@@ -64,6 +64,11 @@
 
 .failures-person {
     margin-right: 80px;
+}
+
+.failures-person img {
+    height: 600px;
+
 }
 
 .failures-title-desc {
@@ -97,8 +102,87 @@
     padding: 5px 0px;
 }
 
-.f-item p{
+.f-item p {
     margin-left: 10px;
 }
 
-/*Pre- Header Persion section Code has been Start*/
+/*Pre- Header Persion section Code has been END*/
+
+
+
+/*Main section Code has been Start*/
+.daily-routine-container {
+
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.daily-routine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 170px;
+    margin-top: 60px;
+}
+
+
+.routine-title {
+    text-align: center;
+    padding: 70px 70px 100px 70px;
+    font-size: 40px;
+}
+
+
+.routine-item {
+    background-color: antiquewhite;
+    margin: 10px 30px;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px silver;
+}
+
+.routine-item p,
+h2 {
+    margin: 20px;
+    text-align: start;
+}
+
+.routine-item p {
+    color: gray;
+    font-size: 15px;
+    font-family: serif;
+}
+
+/*Pre- Header Persion section Code has been END*/
+
+
+/*Main section Code has been Start*/
+/*My Plan Code has been Start*/
+.my-plan {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 80px 120px;
+}
+
+.container-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.p-item-title{
+    margin: 20px 0px;
+}
+
+.p-item-description{
+    color: #737272;
+}
